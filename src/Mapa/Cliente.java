@@ -24,11 +24,9 @@ public class Cliente extends Pessoa {
     }
     
     public boolean equal (Object obj){
-        return ((Cliente) obj).senha.equals(this.senha);
-     
-     
+        return ((Cliente) obj).senha.equals(this.senha); 
 }
-
+	
     public String getUsuario() {
         return usuario;
     }
@@ -42,12 +40,9 @@ public class Cliente extends Pessoa {
         System.out.println("\n----Cliente----\nusuario:"+this.usuario+"\nsenha:"+this.senha);
         System.out.println("nome:"+getNome());
         System.out.println("Documento:"+getDocumento());
-        System.out.println("Password is:"+getSe());
-        
+        System.out.println("Password is:"+getSe());  
     }
-    
-    
-	
+
 	public void setSe(String senha){
 		
 		this.senha = senha;
@@ -62,10 +57,7 @@ public class Cliente extends Pessoa {
 	    }
 
 	    return se;
-  
-}
-
-
+	}
 }
 
     
